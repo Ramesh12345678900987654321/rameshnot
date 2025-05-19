@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color:rgb(49, 49, 49);
+  color: #fff;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1b1b1b;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo-initial {
+  font-size: 50px;
+  font-weight: bold;
+  color: red;
+  text-shadow: 2px 2px white;
+}
+
+.logo p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.logo small {
+  color:red;
+}
+
+.sidebar nav a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  padding: 10px 0;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.sidebar nav a:hover {
+  color: #00fff0;
+}
+
+.social a {
+  color: #aaa;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: #00fff0;
+}
+.intro {
+  position: relative;
+background-image: url('https://images.pexels.com/photos/6894103/pexels-photo-6894103.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+width: 39cm;/* ✅ Correct */
+background-position: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 30px;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 15px rgba(174, 0, 255, 0.3);
+  overflow: hidden;
+}
+
+/* Optional: Add overlay for better readability */
+.intro::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background-color: rgba(0, 0, 0, 0.33); /* dark overlay */
+  z-index: 0;
+  border-radius: 20px;
+  
+}
+
+.intro * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.intro h1 {
+  font-size: 3rem;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  color:white;
+  margin-top: 10px;
+}
+
+.highlight {
+  color: white;
+  text-shadow: 2px 2px 2px violet;
+}
+
+.sub {
+  margin: 20px 0;
+  color:white;
+}
+
+.side{
+  position: absolute;
+  margin-left: 6.5cm;
+  margin-top: 13cm;
+  text-transform: capitalize;
+  text-indent: 1cm;
+  color: rgba(233, 7, 7, 0.938);
+  
+  
+}
+.para{
+  min-width: 10cm;
+  width: 10cm;
+  
+}
+.spam{
+  color: red;
+}
+.info-cards{
+  color: white;
+}
+.image{
+  border-radius: 10cm;
+  height: 1.5cm;
+  width: 1.5cm;
+}
+
